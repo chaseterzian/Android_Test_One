@@ -16,6 +16,8 @@
         PhoneGap Team
     </author>
 
+    <allow-navigation href="https://api.github.com/legacy/repos/search/javascript/*" />
+
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET

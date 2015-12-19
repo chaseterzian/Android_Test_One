@@ -45,6 +45,13 @@ body {
     width:100%;
 }
 
+.col-6 {
+    width: 49.4%;
+    height: 10%;
+    float: left;
+    border: 1px solid transparent;
+}
+
 /* Portrait layout (default) */
 .app {
     background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
@@ -83,7 +90,7 @@ h1 {
     -webkit-border-radius:4px;
     color:#FFFFFF;
     font-size:12px;
-    margin:0px 30px;z
+    margin:0px 30px;
     padding:2px 0px;
 }
 
