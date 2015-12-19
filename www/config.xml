@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.helloworld"
-        version   = "1.0.0">
+        version   = "2.0.0">
 
     <name>Hello World</name>
 
@@ -16,7 +16,7 @@
         PhoneGap Team
     </author>
 
-    <allow-navigation href="https://api.github.com/legacy/repos/search/javascript/*" />
+    <!-- <allow-navigation href="https://api.github.com/legacy/repos/search/javascript/*" /> -->
 
     <!--
         If you do not want any permissions to be added to your app, add the
