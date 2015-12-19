@@ -20,6 +20,7 @@
 /*.header-padding-original{*/
   /*padding-top: 10px;*/
 /*}*/
+
 .pad10{
   padding-top: 10px; 
 }
@@ -48,7 +49,7 @@
 
 
 .text10{
-  color: #424242;
+  color: #666666;
   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
   letter-spacing:0.1em;
   /*text-align:center;*/
@@ -59,7 +60,7 @@
   font-variant: small-caps;
 }
 .text16{
-  color: #424242;
+  color: #8c8c8c;
   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
 	letter-spacing:0.1em;
 	/*text-align:center;*/
@@ -70,7 +71,7 @@
 	font-variant: small-caps;
 }
 .text20{
-  color: #424242;
+  color: #666666;
   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
   letter-spacing:0.1em;
   text-align:center;
@@ -81,7 +82,7 @@
   font-variant: small-caps;
 }
 .text30{
-  color: #424242;
+  color: #666666;
   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
   letter-spacing:0.1em;
   /*text-align:center;*/
@@ -92,13 +93,12 @@
   font-variant: small-caps;
 }
 .text55{
-  color: #424242;
+  color: #666666;
   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
   letter-spacing:0.1em;
   text-align:center;
-  padding-top: 130px;
   text-transform: lowercase;
-  /*line-height: 145%;*/
+  line-height: 40px;
   font-size: 55px;
   font-variant: small-caps;
 }
@@ -210,14 +210,17 @@
   border: 1px solid transparent;
 }
 
+a:link{
+  color: #808080;
+}
 a:active{
-  color: black;
+  color: #808080;
 }
 a:visited{
- color: black; 
+ color: #808080; 
 }
 a:hover{
- color: gray;  
+ color: #b3b3b3;  
 }
 
 
@@ -244,6 +247,9 @@ button{
 }
 
 hr {
-  border-top: 3px double #000000;
-  width: 60%;
+    width: 80%
+}
+
+a {
+  text-color: blue;
 }
